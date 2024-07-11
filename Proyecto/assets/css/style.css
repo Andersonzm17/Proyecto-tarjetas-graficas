@@ -1,0 +1,46 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  height: 10em;
+  padding: 2em;
+  font-size: 2em;
+  background-image: url(../img/microsoft-nvidia-logos-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header h1 {
+  color: aliceblue;
+  position: absolute;
+  bottom: 55%;
+  width: 100%;
+  text-align: left;
+}
+.header p {
+  position: absolute;
+  color: aliceblue;
+  bottom: 50%;
+  width: 100%;
+}
+.products {
+  width: 60%;
+  margin: auto;
+}
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+.products img {
+  width: 100%;
+  border: solid 1px #ddd;
+}
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: #76b900;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
